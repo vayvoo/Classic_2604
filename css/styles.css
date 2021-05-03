@@ -139,7 +139,7 @@ body{
 .hero{
     position: relative;
     padding-top: 61px;
-    background-image: url("../img/vegitable.png");
+    background-image: url("../img/hero-bg.png");
     
     height: 696px;
     background-repeat: no-repeat;   
@@ -357,6 +357,7 @@ body{
 }
 .load-more{
     text-align: center;
+    margin-bottom: 104px;
 }
 .load-more-btn{
     border: none;
@@ -365,4 +366,93 @@ body{
 }
 .load-more-img{
     display: block;
+}
+
+/* Instagram Section */
+
+.instagram-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 127px;
+    background-image: url("../img/instagram-bg.png");
+}
+.instagram-link{
+    padding: 51px 75px;
+    background: linear-gradient(45.04deg, #FD9924 -51.05%, #F65B16 134.89%);
+    box-shadow: 0px 70px 90px rgba(253, 55, 36, 0.2), 0px 35px 50px rgba(253, 55, 36, 0.2), 0px 20px 25px rgba(253, 55, 36, 0.2);
+    border-radius: 15px;
+}
+.insta-text{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: var(--white-color);
+}
+.contact{
+    position: relative;
+    padding-top: 82px;
+    background: #F0F5FB url("../img/contact-bg.png") no-repeat;
+}
+.contact-title{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    color: #000000;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 246px;
+}
+.contact-form::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 634px;
+    height: 264px;
+    bottom: -20px;
+    background: url("../img/car.png");
+}
+.form-text{
+    padding: 20px 30px;
+    margin-right: 40px;
+    background: #FFFFFF;
+    border: 2px solid #ECEEF7;
+    box-sizing: border-box;
+    border-radius: 57px;
+}
+.contact-btn{
+    display: flex;
+    align-items: center;
+    padding: 17px 58px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FE5626 0%, #F23F0E 100%), #59AAF1;
+    box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
+    border: none;
+    border-radius: 59px;
+}
+.contact-btn::after{
+    content: "";
+    margin-left: 31px;
+    background: url("../img/contact-arrow.svg");
+    width: 32px;
+    height: 12px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+.footer-author-name{
+    font-weight: bold;
 }
